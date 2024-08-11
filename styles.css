@@ -1,0 +1,66 @@
+body {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-title {
+  font-size: 50px;
+  color: white;
+  text-shadow: 3px 3px 3px #0000004d;
+}
+
+.countdown-box {
+  font-size: 30px;
+}
+
+.baby-hide{
+  position: absolute;
+  left: -100px;
+  bottom: 0;
+}
+
+.sun {
+  position: absolute;
+  top: -100px;
+  left: -100px;
+}
+
+.baloon {
+  position: absolute;
+  width: 100%;
+}
+
+.main {
+  z-index: 1;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-box {
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  text-shadow: 3px 3px 3px #0000004d;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 30px;
+    backdrop-filter: blur(3px);
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .countdown-box {
+    backdrop-filter: blur(3px);
+  }
+}
