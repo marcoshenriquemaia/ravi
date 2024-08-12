@@ -24,4 +24,4 @@ const countdown = (date) => {
   setTimeout(() => countdown(date), 1000)
 }
 
-countdown(new Date('10/23/2024 12:00:00'))
+countdown(new Date('10/29/2024 12:00:00'))
