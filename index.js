@@ -59,4 +59,4 @@ const countup = (startDate) => {
 };
 
 // Exemplo
-countup(new Date("2024-10-19T22:10:00"));
+countup(new Date("2024-10-16T22:10:00"));
