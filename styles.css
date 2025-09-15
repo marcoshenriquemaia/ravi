@@ -15,6 +15,8 @@ body {
 
 .countdown-box {
   font-size: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 .baby-hide{
@@ -45,6 +47,7 @@ body {
 
 .countdown-box {
   backdrop-filter: blur(10px);
+  background-color: #0000004d;
   padding: 20px;
   border-radius: 20px;
   font-weight: 700;
@@ -52,10 +55,15 @@ body {
   color: white;
 }
 
+.countdown-text {
+  font-family: monospace;
+}
+
 @media screen and (max-width: 768px) {
   .main-title {
     font-size: 30px;
     backdrop-filter: blur(3px);
+     background-color: #0000004d;
     padding: 10px;
     border-radius: 20px;
   }
